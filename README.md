@@ -2,7 +2,8 @@
 
 This repository contains the code released with the manuscript:
 
-**YOLO-DFA: Dynamic Feature-Aware Fusion for Small Object Detection**
+**YOLO-DFA: Dynamic Feature-Aware Fusion for Small Object
+Detection in UAV and Remote-Sensing Imagery**
 
 YOLO-DFA is built on the Ultralytics YOLO framework and introduces several custom modules for small-object detection: `DynamicConv`, `C2f_Bifocal`, `DK_FMM`, an efficient iRMB-based GFPN neck with `iRMB_Zoom`, and the pre-head `SSEM` calibration module. The model configuration keeps the anchor-free YOLO detection head and adds a four-scale P2-P5 prediction structure.
 
